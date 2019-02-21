@@ -1,4 +1,4 @@
-# Heap (힙)
+# [Heap (힙)](https://www.codeground.org/common/popCodegroundNote#)
 
 힙(heap) 은 최댓값 또는 최솟값을 빠르게 찾아낼 수 있는 트리형 자료구조입니다.
 
