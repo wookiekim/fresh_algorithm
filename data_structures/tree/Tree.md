@@ -1,4 +1,4 @@
-# Tree(트리)
+# [Tree(트리)](https://www.codeground.org/common/popCodegroundNote#)
 
 트리는 자식과 부모의 관계로 이루어진 계층적인 구조입니다. \
 필요에 따라 `다양한 종류`로 나뉘게 되는데 이번 문서에서는 제일 간단한 트리인 이진 트리에 대해서 설명하려고 합니다.
