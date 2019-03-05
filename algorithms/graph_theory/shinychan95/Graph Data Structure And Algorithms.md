@@ -22,13 +22,14 @@ A Graph is a **non-linear data structure** consisting of **nodes** and **edges**
 
 ![graph1](./img/graph.png)
 
-Following two are the most commonly used representations of a graph.
+>Following two are the most commonly used representations of a graph.
 
-1. Adjacency **Matrix**
+####  1. Adjacency **Matrix**
 
 ![graph2](./img/adjacencymatrix.png)
 
-2. Adjacency **List**
+
+####  2. Adjacency **List**
 
 ![graph3](./img/adjacencylist.png)
 
