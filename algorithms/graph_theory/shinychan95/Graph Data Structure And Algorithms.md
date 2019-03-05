@@ -20,16 +20,15 @@ A Graph is a **non-linear data structure** consisting of **nodes** and **edges**
 
 ### 1. Graph and its representations
 
+Following is an example of an undirected graph with 5 vertices.
 ![graph1](./img/graph.png)
 
->Following two are the most commonly used representations of a graph.
-
-####  1. Adjacency **Matrix**
+Following two are the most commonly used representations of a graph.
+1. Adjacency **Matrix**
 
 ![graph2](./img/adjacencymatrix.png)
 
-
-####  2. Adjacency **List**
+2. Adjacency **List**
 
 ![graph3](./img/adjacencylist.png)
 
