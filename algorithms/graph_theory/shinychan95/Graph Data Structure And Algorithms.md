@@ -54,7 +54,7 @@ Following two are the most commonly used representations of a graph.
 2. Detecting cycle in a graph
 > For every visited vertex 'v', if there is an adjacent 'u' such that u is already visited and u is not parent of v, then there is a cycle in graph.
 3. [Strongly Connected componet](https://blog.naver.com/pkjhj485/221344212130)
-3. Path Finding
+3. [Path Finding](https://medium.com/omarelgabrys-blog/path-finding-algorithms-f65a8902eb40)
 4. **Topological Sorting**
 5. [To test if a graph is bipartite](https://gmlwjd9405.github.io/2018/08/23/algorithm-bipartite-graph.html)
 
