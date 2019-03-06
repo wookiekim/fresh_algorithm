@@ -52,6 +52,7 @@ Following two are the most commonly used representations of a graph.
 
 1. For an unweighted graph, DFS traversal of the graph produces the minimum spanning tree and all pair shortest path tree.
 2. Detecting cycle in a graph
+> For every visited vertex 'v', if there is an adjacent 'u' such that u is already visited and u is not parent of v, then there is a cycle in graph.
 3. [Strongly Connected componet](https://blog.naver.com/pkjhj485/221344212130)
 3. Path Finding
 4. **Topological Sorting**
