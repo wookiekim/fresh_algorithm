@@ -13,3 +13,6 @@
 |3|seungwook yeonjoon|
 |4|yeonjoon jisong|
 |5|jisong chanyoung|
+
+### 공통 숙제
+백준 1114 [통나무 자르기](https://include-algo.tistory.com/8)
