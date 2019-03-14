@@ -7,7 +7,7 @@ int main()
 	int N, S, R; // 팀의 수 N, 카약이 손상된 팀의 수 S, 카약을 더 가져온 팀의 수 R
 
 	/* 팀의 상태를 나타내는 배열
-	 * 이상 없음 0, 카약 손상 1, 카약 여분 2*/
+	 * 이상 없음 0, 카약 손상 -1, 카약 여분 +1*/
 	int team[12] = { 0, };
 	int cnt = 0; // 출전 못하는 팀의 수
 
@@ -29,13 +29,13 @@ int main()
 		team[tmp] += 1;
 	}
 
-	for (int i = 0; i < N; i++) {
-		if (team[i] == 1) {
-			if (team[i - 1] == 2) {//앞 팀이 여분 카약 있음
+	for (int i = 1; i <= N; i++) {
+		if (team[i] == -1) {
+			if (team[i - 1] == 1) {//앞 팀이 여분 카약 있음
 				team[i - 1] = 0;
 				team[i] = 0;
 			}
-			else if (team[i + 1] == 2) {//뒷 팀이 여분 카약 있음
+			else if (team[i + 1] == 1) {//뒷 팀이 여분 카약 있음
 				team[i + 1] = 0;
 				team[i] = 0;
 			}
