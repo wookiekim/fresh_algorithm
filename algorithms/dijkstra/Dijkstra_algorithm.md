@@ -49,7 +49,7 @@
 모든 간선이 한 번씩 검사된다는 점에서 첫 번째 작업이 O(E),
 각 간선마다 우선순위 큐에 자료가 삽입 연산이 일어난다는 점에서 O(E log V)이며
 이 둘을 합쳤을 때(E + E log V) time complexity는 O(E log V)이다.
-이 둘을 합쳤을 때(E + E log V) time complexity는 O(E log V)이다.
+[link](https://blog.naver.com/uuuu118/221430383952) <--추가 공부...
 
 ## 단점
 가중치가 음수인 경우 작동하지 않는다. 이때 벨만-포드 알고리즘을 사용해야 한다.
