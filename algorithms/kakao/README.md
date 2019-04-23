@@ -1,4 +1,4 @@
-# Kakao blind-recruitment, coding
+# Kakao blind-recruitment 2018, coding
 
 1. N진수 게임
 2. 압축
