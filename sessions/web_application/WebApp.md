@@ -70,5 +70,5 @@
 - 네트워크 관련 명령어
 - 방화벽 명령어
 
-## 실제로 해봅시다
+## 실제로 코드를  해봅시다
 [Amazon Web Serivce EC2를 이용하여 NodeJS 웹 서버 구축하기](https://cinema4dr12.tistory.com/741)
