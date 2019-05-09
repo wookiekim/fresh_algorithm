@@ -1,4 +1,7 @@
-#Web Application
-#Web Application
-#Web Application
+# Web Application
+웹 개발에 대해서 김찬영이 공부한 부분까지만 맛을 봐본다.
+
+## Objectives
+* 웹 애플리케이션 개발 코드 기반 이해
+* 제작한 웹 애플리케이션 배포
 
