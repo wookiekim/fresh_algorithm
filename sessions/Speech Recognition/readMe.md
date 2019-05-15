@@ -16,8 +16,7 @@ ppt로 설명 드리겠습니다.
 집 컴퓨터 VMware에 Ubuntu 16을 올려놓았습니다. 이를 서버로 사용합니다. 칼디를 사용하기 위해서 깔아야 하는게 원래 많은데, 다 구축해놓은 상태입니다.
 
 ### 2) 서버 접속
-ip: 
-port: 22
+
 |      | id  | pwd    |
 |------|-----|--------|
 | 승욱 | ksw | kswksw |
@@ -51,7 +50,7 @@ kaldi/egs/doremi/doremi_audio/train 에 자신이 녹음한 **트레이닝** 파
 #### Acoustic data
 1. `cd kaldi/egs/doremi/data/train`
 2. `vi spk2gender_자기아이디` 로 파일 생성 후 자기아이디 성별(f 또는 m) 작성
-> hey f
+> aey f
 3. `vi wav.scp_자기아이디`로 파일 생성 후 자신의 파일 위치 작성(총 20줄)
 > **aey_0_1_5_2** /root/kaldi/egs/doremi/doremi_audio/train/aey_0_1_5_2.wav
 4. `vi text_자기아이디` 로 파일 생성 후 파일에 녹음된 단어 작성(총 20줄)
