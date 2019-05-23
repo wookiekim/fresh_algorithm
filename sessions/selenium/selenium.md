@@ -64,7 +64,22 @@ find_element_by_?? : ??가 id, name, 또는 class가 될 수 있습니다.
 
 Keys는 return(or enter) key를 키보드 대신 입력해주는 기능
 
-### 혹시 실패했나요?ㅠㅠ
-``
+## 6-1. 혹시 실패했나요?ㅠㅠ
+화면의 속도와 코드 입력 속도가 달라서 그럴 수 있습니다!
+이때 두 가지를 사용할 수 있습니다.
+
+#### (1)
+```python
+import time
+
+time.sleep(3)
+```
+
+#### (2)
+```python
+driver.implicitly_wait(3)
+```
+이 코드를 적절한 위치에 적절한 시간을 조절해서 넣어주고 코드를 실행해봅시다!
+
 
 
