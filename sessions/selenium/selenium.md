@@ -19,12 +19,11 @@ pip 명령어를 사용해 Selenium을 설치합니다.
 Python으로 하겠습니다!
 아래와 같이 Python파일을 만들고 실행해봅시다.
 
-`from selenium import webdriver`
-
-`path = "Webdriver의 경로를 입력합니다."`
-
-`driver = webdriver.Chrome(path)`
-
+```python
+from selenium import webdriver
+path = "Webdriver의 경로를 입력합니다."
+driver = webdriver.Chrome(path)
+```
 크롬 창이 켜지면 성공!
 
 `driver.get('https://www.postech.ac.kr')`
