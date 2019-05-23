@@ -39,32 +39,23 @@ Python으로 하겠습니다!
 
 ## 6. 분석을 바탕으로 Python 코드 작성(로그인 코드)
 음.. 가독성 최악....
-`from selenium import webdriver`
 
-`from selenium.webdriver.common.keys import Keys`
+```python
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
+usr = "아이디"
+pwd = "패스워드"
+path = "WebDriver의 경로"
+driver = webdriver.Chrome(path)
+driver.get("https://www.postech.ac.kr")
 
-`usr = "아이디"`
-
-`pwd = "패스워드"`
-
-`path = "WebDriver의 경로"`
-
-`driver = webdriver.Chrome(path)`
-
-`driver.get("https://www.postech.ac.kr")`
-
-
-`elem = driver.find_element_by_id("ID")`
-
-`elem.send_keys(usr)`
-
-`elem = driver.find_element_by_id("PWD")`
-
-`elem.send_keys(pwd)`
-
-`elem.send_keys(Keys.RETURN)`  
-
+elem = driver.find_element_by_id("ID")
+elem.send_keys(usr)
+elem = driver.find_element_by_id("PWD")
+elem.send_keys(pwd)
+elem.send_keys(Keys.RETURN)  
+```
 
 
 send_keys : 현재 커서가 위치한 곳에 ()안에 있는 값을 넣는 기능.
