@@ -20,7 +20,9 @@ Python으로 하겠습니다!
 아래와 같이 Python파일을 만들고 실행해봅시다.
 
 `from selenium import webdriver`
+
 `path = "Webdriver의 경로를 입력합니다."`
+
 `driver = webdriver.Chrome(path)`
 
 크롬 창이 켜지면 성공!
@@ -37,20 +39,31 @@ Python으로 하겠습니다!
 
 ## 6. 분석을 바탕으로 Python 코드 작성(로그인 코드)
 `from selenium import webdriver`
+
 `from selenium.webdriver.common.keys import Keys`
 
+
 `usr = "아이디"`
+
 `pwd = "패스워드"`
 
 `path = "WebDriver의 경로"`
+
 `driver = webdriver.Chrome(path)`
+
 `driver.get("https://www.postech.ac.kr")`
 
+
 `elem = driver.find_element_by_id("ID")`
+
 `elem.send_keys(usr)`
+
 `elem = driver.find_element_by_id("PWD")`
+
 `elem.send_keys(pwd)`
+
 `elem.send_keys(Keys.RETURN)`  
+
 
 send_keys : 현재 커서가 위치한 곳에 ()안에 있는 값을 넣는 기능.
 find_element_by_?? : ??가 id, name, 또는 class가 될 수 있습니다.
