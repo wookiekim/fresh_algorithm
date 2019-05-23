@@ -38,6 +38,7 @@ Python으로 하겠습니다!
 학교 홈페이지 ㄱㄱ
 
 ## 6. 분석을 바탕으로 Python 코드 작성(로그인 코드)
+음.. 가독성 최악....
 `from selenium import webdriver`
 
 `from selenium.webdriver.common.keys import Keys`
@@ -65,7 +66,10 @@ Python으로 하겠습니다!
 `elem.send_keys(Keys.RETURN)`  
 
 
+
 send_keys : 현재 커서가 위치한 곳에 ()안에 있는 값을 넣는 기능.
+
 find_element_by_?? : ??가 id, name, 또는 class가 될 수 있습니다.
+
 Keys는 return(or enter) key를 키보드 대신 입력해주는 기능
 
