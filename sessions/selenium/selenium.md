@@ -12,6 +12,7 @@ pip 명령어를 사용해 Selenium을 설치합니다.
 자신이 사용하는 브라우저의 driver를 별도로 다운로드 해야 합니다. Selenium은 컴퓨터가 직접 웹 브라우저를 띄운 후 코드를 쳐서 동작시킬 수 있도록 web driver라는 api를 제공합니다. 컴퓨터가 이를 직접 할 수 있도록 도와주는 driver를 설치해보도록 합시다.
 크롬, 파이어폭스, 사파리 등이 driver를 제공합니다. 자신의 운영체제 맞는 버전으로 다운로드하고, 그 다운로드 한 위치의 경로를 알아둡시다.
 (사파리는 기본으로 제공하기 때문에 따로 다운로드할 필요가 없습니다. ~~애플만세~~)
+http://chromedriver.chromium.org/downloads
 
 예)`C:\downloads\chromedriver`
 
