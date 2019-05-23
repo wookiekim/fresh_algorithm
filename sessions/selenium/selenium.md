@@ -47,7 +47,9 @@ pwd = "패스워드"
 path = "WebDriver의 경로"
 driver = webdriver.Chrome(path)
 driver.get("https://www.postech.ac.kr")
-driver.find_element_by_xpath("""//*[@id="mob_login"]""").click()
+driver.find_element_by_xpath("""//*[@id="web_login"]""").click()
+
+driver.switch_to.frame("povis_iframe")
 
 elem = driver.find_element_by_id("ID")
 elem.send_keys(usr)
@@ -80,5 +82,8 @@ driver.implicitly_wait(3)
 ```
 이 코드를 적절한 위치에 적절한 시간을 조절해서 넣어주고 코드를 실행해봅시다!
 
-
+## 6-2. iframe이란?
+웹페이지 html내에 다른 html을 집어넣었을 때, frame전환을 하지 않으면 접근할 수 없습니다.
+povis_iframe까지 들어가야 id와 password를 입력할 수 있습니다.
+한마디로, 방에 들어갔는데 또 문을 열고 들어가야하는 상황이라고 보면 되겠습니다!
 
